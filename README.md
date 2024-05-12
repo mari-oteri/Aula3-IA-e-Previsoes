@@ -20,6 +20,8 @@ _Scores_ e dados dos clientes que já possuem classificação na base de dados.
     - sklearn.model_selection -> train_test_split
     - sklearn.ensemble -> RandomForestClassifier
     - sklearn.neighbors -> KNeighborsClassifier
+    - sklearn.metrics -> accuracy_score
+
 
 
 ### Modelos utilizados:
@@ -32,3 +34,6 @@ _Scores_ e dados dos clientes que já possuem classificação na base de dados.
 - KNN
 
         Plota os casos de treino e teste em um gráfico e os compara com base na proximidade
+
+##### Para realização de deploys
+- Utilizar streamlit
